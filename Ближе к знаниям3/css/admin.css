@@ -1,0 +1,72 @@
+/* Общие стили для всего сайта */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f1e1;
+    /* Светлый песочный фон */
+    color: #4a3d2f;
+    /* Темно-коричневый цвет текста */
+    line-height: 1.6;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Фиксированная высота для тела страницы */
+}
+
+/* Логотип в шапке */
+header {
+    background-color: #ffd699;
+    /* Песочный фон для шапки */
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+
+header .logo {
+    width: 250px;
+    /* Увеличиваем размер логотипа */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+/* Основной контейнер */
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    /* Делает контейнер растягивающимся */
+}
+li{
+    border:#4a3d2f;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    border: 2px solid #ffd699; /* Толщина, стиль и цвет границы */
+    padding: 5px; /* Отступы между текстом и границей */
+    display: inline-block; 
+    background-color: #ffd699;
+    color:black;
+    
+}
+.button{
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+.button:hover{
+    transform: scale(1.2)
+}

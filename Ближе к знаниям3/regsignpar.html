@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Образовательный портал</title>
+  <link rel="stylesheet" href="reg.sign/styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Вкладки для переключения -->
+    <div class="tabs">
+      <button class="tab active" id="login-tab">Вход</button>
+      <button class="tab" id="register-tab">Регистрация</button>
+    </div>
+
+    <!-- Форма входа -->
+    <div class="form-container" id="login-form">
+      <h2>Вход</h2>
+      <form>
+        <label for="login-email">Email:</label>
+        <input type="email" id="login-email" placeholder="Введите ваш email" required>
+
+        <label for="login-password">Пароль:</label>
+        <input type="password" id="login-password" placeholder="Введите ваш пароль" required>
+
+        <button type="submit"><a href="parent.html">Войти</a></button>
+      </form>
+    </div>
+
+    <!-- Форма регистрации -->
+    <div class="form-container hidden" id="register-form">
+      <h2>Регистрация</h2>
+      <form>
+        <label for="register-name">Имя:</label>
+        <input type="text" id="register-name" placeholder="Введите ваше имя" required>
+
+        <label for="register-email">Email:</label>
+        <input type="email" id="register-email" placeholder="Введите ваш email" required>
+
+        <label for="register-password">Пароль:</label>
+        <input type="password" id="register-password" placeholder="Придумайте пароль" required>
+
+        <button type="submit"><a href="student.html">Зарегистрироваться</a></button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Подключение JavaScript -->
+  <script src="reg.sign/script.js"></script>
+</body>
+</html>

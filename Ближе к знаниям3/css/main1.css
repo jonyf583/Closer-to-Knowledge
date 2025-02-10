@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+img {
+    width: 150px; /* Установите желаемую ширину */
+    height: auto; /* Высота будет автоматически подстраиваться */
+    display: block;
+    margin: 0 auto; /* Центрирование логотипа */
+}
+form {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffd699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:#ffd699;
+}
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+h2, p {
+    text-align: center; /* Центрирование текста */
+    margin: 0; 
+}
+a{
+    text-decoration:none;
+    color:black;
+}

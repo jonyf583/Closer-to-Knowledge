@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница учителя</title>
+    <link rel="stylesheet" href="css/teacher.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.png" alt="Логотип школы" class="logo">
+            <h1>Страница учителя</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Добро пожаловать, учитель!</h2>
+            <ul>
+                <li><a href="#" class="button">Расписание</a></li>
+                <li><a href="#" class="button">Классное руководство</a></li>
+                <li><a href="#" class="button">Чат с учителями</a></li>
+                <li><a href="#" class="button">Методические материалы</a></li>
+                <li><a href="#" class="button">Тесты</a></li>
+                <li><a href="forum/forum.html" class="button">Форум</a></li>
+            </ul>
+
+            <!-- Форма для загрузки материалов -->
+            <div class="metod">
+                <h3>Загрузить методические материалы</h3>
+                <form action="upload.php" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="file" required class="input-field">
+                    <button type="submit" class="button">Загрузить</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
